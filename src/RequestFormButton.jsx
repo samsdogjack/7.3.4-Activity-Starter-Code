@@ -1,5 +1,7 @@
 import React, { useContext } from "react";
+import StylesContext from "./StylesContext";
 
+const buttonStyling = React.useContext (StylesContext)
 
 export default function RequestFormButton() {
   return (
